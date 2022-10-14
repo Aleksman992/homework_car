@@ -1,0 +1,174 @@
+@import url(null.css);
+body{
+  background: url(../img/пустеля.webp) 0 0/cover no-repeat;
+}
+
+.car__frame {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 330px;
+  left: 320px;
+}
+.car__hood {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius:0% 100% 100% 0% / 0% 100% 0% 100% ;
+  position: absolute;
+  top: 330px;
+  left: 620px;
+}
+
+.car__trunk {
+  width: 150px;
+  height: 100px;
+  border-radius: 106px 0px 0px 30px;
+  background-color: blue;
+  position: absolute;
+  top: 330px;
+  left: 210px;
+}
+.car__roof{
+  width: 300px;
+  height: 120px;
+  background-color: blue;
+  border-radius: 100px 100px 0px 0px;
+  position: absolute;
+  top: 250px;
+  left: 320px;
+}
+.car__front-window {
+  width: 120px;
+  height: 70px;
+  border-radius:200px 0px 0px 0px ;
+  border: solid;
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 260px;
+  left: 350px;
+}
+.car__rear-window {
+  width: 120px;
+  height: 70px;
+  border-radius: 0px 200px 0px 0px;
+  border: solid;
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 260px;
+  left: 480px;
+}
+
+.car__headlight {
+  width: 20px;
+  height: 20px;
+  background-color: wheat;
+  border-radius: 200px 0px 200px 0px;
+  border: solid;
+  position: absolute;
+  top: 360px;
+  left: 220px;
+}
+.car__wheel{
+  width: 60px;
+  height: 60px;
+  background-color: gray ;
+  border-radius: 50% ;
+  border: solid black;
+  position: absolute;
+  top: 400px;
+  left: 620px;
+}
+.car__wheel-two {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 50%;
+  border: solid black;
+  position: absolute;
+  top: 400px;
+  left: 240px;
+}
+.car__handle {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 340px;
+  left: 430px;
+}
+.car__handle-two {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 340px;
+  left: 560px;
+}
+.car__stop{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 0px 200px 10px 10px;
+  border: solid black;
+  position: absolute;
+  top: 350px;
+  left: 670px; 
+}
+.car__decor {
+  width: 120px;
+  height: 8px;
+  background-color: midnightblue;
+  position: absolute;
+  top: 370px;
+  left: 340px;
+}
+.car__decor-two {
+  width: 120px;
+  height: 8px;
+  background-color: midnightblue;
+  position: absolute;
+  top: 370px;
+  left: 490px;
+}
+.car__hatch {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border: solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 360px;
+  left: 630px;
+}
+.car__cap {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  border: solid wheat;
+  position: absolute;
+  top: 410px;
+  left: 250px;
+}
+.car__cap-two {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  border: solid wheat;
+  position: absolute;
+  top: 410px;
+  left: 630px;
+}
+.car__muffler {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 428px;
+  left: 705px;
+}
